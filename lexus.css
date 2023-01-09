@@ -1,0 +1,652 @@
+body{
+    margin: 0;
+}
+.bar{
+    width: 1349px;
+    height: 90px;
+    background-color:rgb(255, 255, 255);
+}
+.firstpic{
+    width: 1349px;
+    height: 558.56px;
+    background-color: aqua;
+}
+.blackbar{
+    width: 1349px;
+    height: 138px;
+    background-color:black;
+}
+.firstfreespace{
+    width: 1349px;
+    height: 50px;
+}
+.insidebar{
+    position: relative;
+    left: 83px;
+   padding-top: 34px;
+    width: 1200px;
+    height: 40px;
+}
+.logoimg{
+    float: left;
+    width: 138px;
+    height: 32px;
+}
+.bartext{
+    float: left;
+    width: 357px;
+    height: 22px;
+}
+.list{
+    font-size: 11px;
+    font-family: lexusbold;
+    border: 0;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    display:inline-block;
+}
+.content{
+    word-spacing: 10PX;
+    text-align: left;
+    float: left;
+    width: 280px;
+    height: 18.39px;
+}
+.barsearch{
+    float: left;
+    width: 22px;
+    height: 22px;
+    padding-left: 20px;
+}
+.freebar{
+    float: left;
+    width: 705px;
+    height: 22px;
+}
+.seeoffer{
+    width: 1340px;
+    height: 15px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: lexusfont;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+@font-face {
+    font-family: lexusfont;
+    src: url(FONTS/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: lexusbold;
+    src: url(FONTS/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: lexusmid;
+    src: url(FONTS/Roboto-Medium.ttf);
+}
+.searchbox{
+    width: 325px;
+    height: 52px;
+    margin: auto;
+    margin-top: 31px;
+}
+.icon1{
+    float: left;
+    width: 24px;
+    height: 50px;
+    background-color: white;
+}
+#icon1{
+    width: 24px;
+    height: 15px;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+.searchspace{
+    float: left;
+    width: 249px;
+    height: 50px;
+    background-color: white;
+}
+.divider{
+    float: left;
+    width: 1px;
+    height: 27px;
+    position: relative;
+    top: 12px;
+    left: 245px;
+    background-color: rgb(95, 93, 93);
+}
+.icon2{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+#icon2{
+    width: 13.4px;
+    height: 13.4px;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+.input{
+    border: 0;
+    height: 30px;
+    width: 220px;
+    outline: none;
+    margin-top: 9px;
+    padding-left: 10px;
+}
+.tools{
+    text-align: center;
+    font-size: 22px;
+    font-family:lexusmid ;
+    margin: 0;
+}
+.carlogos{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    margin: auto;
+    width: 380px;
+    height: 69px;
+
+}
+.car1{
+    margin-left: 15px;
+    float: left;
+    width: 111px;
+    height: 69px;
+}
+.text1{
+    width: 111px;
+    height: 14px;
+    font-size: 11px;
+    font-family: lexusmid;
+}
+svg{
+   fill:rgb(102, 102, 102);
+}
+a{
+    text-decoration: none;
+}
+.car2{
+    float: left;
+    width: 85px;
+    height: 69px;
+    margin-left: 40px;
+}
+.text3{
+    padding-left: 15px;
+    width: 111px;
+    height: 14px;
+    font-size: 11px;
+    font-family: lexusmid;
+}
+.free2{
+    width: 1349px;
+    height: 101px;
+}
+.bline{
+    width:1280px ;
+    height: 1px;
+    background-color: rgb(136, 131, 131) ;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+.full{
+    width: 1349px;
+    height: 142px;
+}
+.bigdiv{
+    width: 1349px;
+    height: 458.8px;
+}
+.seconddiv{
+    margin-top: 30px;
+    width: 1349px;
+    height: 418.4px;
+    display: flex;
+    flex-direction: row;
+}
+.thirddiv{
+    width: 396.3px;
+    height: 418.4px;
+    position: relative;
+    left: 90px;
+}
+.pic{
+    width: 390px;
+    height: 239px; 
+}
+.pic img{
+    width: 390px;
+    height: 239px;
+}
+.model{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 179px;
+    align-items: center;
+}
+.modeldetails{
+    width: 370px;
+    height: 89px;
+}
+.modelbutton{
+    width: 370px;
+    height: 60px;
+}
+.fisrt1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 370px;
+    height: 24px;
+    font-size:20px ;
+    font-family:lexusfont;
+    color:black ;
+}
+.second1{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 370px;
+    height: 20px;
+    font-size: 14px;
+    font-family: lexusfont;
+    color: black;
+}
+.button1 button{
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    font-size:13PX ;
+    font-family:lexusbold;
+    color:black ;
+    margin-left: 74px;  
+}
+.longdiv{
+    width: 1349px;
+    height: 800px;
+}
+.exp{
+    font-size: 24px;
+    font-family: lexusfont;
+    color: black;
+    width: 1349px;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fullcars{
+    width: 1349px;
+    height: 721px;
+}
+.modelnames{
+    margin-bottom: 30px;
+    width: 1349px;
+    text-align: center;
+    height: 18.3px;
+    display: flex;
+    justify-content: center;
+}
+h5{
+    margin: 10px;
+    font-size: 13px;
+    font-family: lexusmid;
+    color: black;
+}
+.cara img{
+    margin-left: 10px;
+    width: 130px;
+    height: 75.5px;
+}
+.cara h4{
+    text-align: center;
+    font-size: 13px;
+    font-family: lexusmid;
+    color: black;
+}
+.car8{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.background{
+    position: relative;
+    top: 30px;
+    width: 1349px;
+    height: 450px;
+    background-image: url(imglexus/DSE-2022-Homepage-Vehicle-Selector-Desktop-1920x536.jpg);
+}
+.bgroundtext{
+    position: relative;
+    bottom: 300px;
+    width: 455px;
+    height: 63px;
+}
+.gx{
+    position: relative;
+    top: 77px;
+    left: 48px;
+    width: 445px;
+    height: 158px;
+}
+.gx h1{
+    font-size:60px ;
+    font-family: lexusfont;
+    color:black ;
+}
+.gx h4{
+    font-size:45px ;
+    font-family: rajlit;
+    color:black ;
+}
+.gx h5{
+    font-size:13px ;
+    font-family: lexusfont;
+    color: black;
+}
+.gx h6{
+    font-size:12px ;
+    font-family:rajlit;
+    color:black ;
+}
+.gx h1,h4,h5,h6{
+    margin: 0;
+}
+@font-face {
+    font-family: rajlit;
+    src: url(FONTS/Rajdhani-Light.ttf);
+}
+@font-face {
+    font-family: rajmid;
+    src: url(FONTS/Rajdhani-Medium.ttf);
+}
+.button2{
+    margin-left: 48px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button2 div{
+    align-items: center;
+    margin-right: 10px;
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+.button2 a{
+    position: relative;
+    top: 15px;
+    align-items: center;
+    font-size:13px ;
+    font-family: lexusmid;
+    color: white;
+}
+.colors{
+    position: relative;
+    top: 30px;
+    width: 1349px;
+    height: 75.4px;
+}
+.color{
+    margin-top: 25px;
+    position: relative;
+    left: 48px;
+    width: 392px;
+    height: 50.4px;
+    display: flex;
+}
+.color img{
+    border: solid;
+    border-color: transparent;
+    width: 46px;
+    height: 46px;
+}
+.color img:hover{
+    border-color: rgb(182,161,113);
+}
+#em{
+    margin-left: 53px;
+    margin-top: 25px;
+    font-size:12px ;
+    font-family: lexusfont;
+    color: black;
+}
+.bigcar img{
+    width:800px;
+    height:800px ;
+}
+.background img{
+    position: relative;
+    bottom: -95px;
+    left: 615px;
+    width: 733px;
+    height: 393px;
+}
+.line3 hr{
+    margin: 50px;
+    width: 1290px;
+    align-items: center;
+    position: relative;
+    right: 24px;
+}
+.cardiv{
+    padding-top: 50px;
+    margin: 5px;
+    width: 1340px;
+    height:  445.9px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardiv3{
+    width:440px ;
+    height: 440px;
+}
+.future{
+    width: 1349px;
+    height: 30px;
+    text-align: center;
+}
+.future a{
+    font-size: 24px;
+    font-family: lexusfont;
+    font-weight:500;
+}
+.innercar{
+    width: 440px;
+    height: 214.8px;
+}
+#qq{
+    margin-top: 10px;
+}
+.buttonandt{
+    position: relative;
+    bottom: 104px;
+    width: 440px;
+    height: 100px;
+}
+.buttonandt button{
+    margin-top: 15px;
+    width: 220px;
+    margin-left: 106px;
+    height: 50px;
+}
+button a{
+    font-size:13px ;
+    font-family: lexusmid;
+    font-weight: 600px;
+}
+.buttonandt h4{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: lexusfont;
+    font-weight: 500px;
+}
+.b{
+    position: relative;
+    bottom: 35px;
+}
+.lastdiv{
+    letter-spacing: .6px;
+    width: 1349px;
+    height: 100px;
+    padding-top: 38px;
+    position: relative;
+    bottom: 30px;
+    background-color:rgb(247, 244, 244);
+    text-align: center;
+    margin-bottom: 0;
+}
+.lastdiv p{
+    font-size: 14px;
+    font-family: lexusfont;
+    font-weight: lighter;
+}
+.lastdiv a{
+    font-size: 14px;
+    font-family: lexusfont;
+    font-weight: bolder;
+}
+footer{
+    margin-top: -28px;
+    width: 1349px;
+    height: 765px;
+    background-color: black;
+}
+.footerhead{
+    padding-top: 30px;
+    width: 1349px;
+    letter-spacing: .04px;
+    height: 18px;
+    font-size:11px;
+    justify-content: center;
+    color: rgb(182, 161, 113);
+    font-family: lexusmid;
+    display: flex;
+}
+.footerhead img{
+    margin-top: 10px;
+    width: 29px;
+    height: 14px;
+}
+.fulllist{
+    margin-left: 100px;
+    padding-top: 45px;
+    display: flex;
+    color: white;
+    width: 1200px;
+    height: 516px;
+    font-family: lexusfont;
+    font-size: 11px;
+    letter-spacing: .1px;
+}
+.biglist{
+    margin-top: 20px;
+    width: 300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.biglist h4{
+    letter-spacing: .4px;
+    line-height: 14px;
+}
+.socialmedia{
+    width:300px ;
+    display: flex;
+}
+.socialmedia div i{
+    margin-right: 8px;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+}
+.secondlist{
+    width: 900px;
+    height: 516px;
+}
+.secondlistpart1{
+    display: flex;
+    width: 900px;
+    height: 186px;
+}
+.secondlistpart2{
+    margin-top: 45px;
+    display: flex;
+    width: 900px;
+    height: 240px;
+}
+.secondlistpart1 div{
+    width: 300px;
+    height: 186px;
+}
+.secondlistpart2 div{
+    width: 300px;
+    height: 240px;
+}
+.secondlistpart1 div h4{
+    font-weight: lighter;
+}
+.secondlistpart2 div h4{
+    font-weight: lighter;
+}
+.secondlistpart1 h4{
+    margin-top: 15px;
+}
+.secondlistpart2 h4{
+    margin-top: 15px;
+}
+.bigs{
+    padding-bottom: 5px;
+    font-family: lexusmid;
+}
+.lastcont{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    width: 1200px;
+    height: 51px;
+    text-align: center;
+}
+.lastcont p{
+    line-height: 14px;
+    letter-spacing: .04px;
+    font-size: 11px;
+    color: rgb(173, 173, 173);;
+}
+#h4{
+    font-family: lexusfont;
+    font-size: 11px;
+    color: white; 
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.ho:hover{
+    background-color:transparent ;
+    border-color: black;
+}
+.ho{
+    border: solid;
+    color: white;
+    border-color: transparent;
+}
+.ho a:hover{
+    color: black;
+}
+img:hover{
+    scale: 1.03;
+}
